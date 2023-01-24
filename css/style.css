@@ -52,7 +52,6 @@ body {
 .row {
     display: flex;
     align-items: flex-start;
-    margin: 0 -10;
 }
 
 .container.big {
@@ -96,6 +95,13 @@ button {
     color: white;
     background-color: #23272a;
 }
+
+.blue-button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #7289da;
+    color: white;
+}
 p {
     font-size: 20px;
     line-height: 35px;
@@ -112,6 +118,10 @@ a {
 
 ul li{
     list-style: none;
+}
+
+.grey{
+    background-color: #e4e4e4;
 }
 /* Header */
 header {
@@ -186,12 +196,12 @@ header .headersuperiore a {
 }
 
 .headerbottom .white-button {
-    font-size: 25px;
+    font-size: 22px;
     padding: 15px 20px;
 }
 
 .headerbottom .black-button {
-    font-size: 25px;
+    font-size: 22px;
     margin-left: 15px;
     margin-top: 30px;
     padding: 15px 20px;
@@ -203,9 +213,9 @@ section {
     padding: 40px;
 }
 
-main section:nth-child(even) {
+/* main section:nth-child(even) {
     background-color: #d3d3d3;
-}
+} */
 
 .col-1 {
     width: 60%;
@@ -214,7 +224,6 @@ main section:nth-child(even) {
 .col-2 {
     width: 40%;
 }
-
 
 section .row {
     display: flex;
@@ -225,17 +234,29 @@ section .row {
 }
 
 section .col-green img{
-    width: 1300px;
+    width: 1200px;
 }
 h3{
     font-size: 30px;
 }
+.wave{
+  transform: rotate(180deg);
+}
 
-.blue-button{
-    margin-top: 20px;
-    padding: 10px 30px;
-    background-color: #7289da;
-    color: white;
+.wave-due{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    
+}
+.ondina{
+    height: 135px;
+}
+
+.stairs{
+    padding: 150px 0px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /* Footer */
 
@@ -279,16 +300,17 @@ footer .coll-small2 ul{
     display: flex;
     gap:15px;
 }
-.flagita{
-    width: 25px;
-}
-
 .coll-big2 {
     display: flex;
     width:  100%;
     margin-top: 100px;
     justify-content: space-between;
 } 
+
+.flagita{
+    width: 25px;
+}
+
 
 footer hr {
     margin: 30px auto;
@@ -302,10 +324,9 @@ footer .footer-bottom .container {
     align-items: flex-end;
 } 
 
-.first>a{
+.box li:first-child>a{
     color: #7289da;
-} 
-
+}
 footer .box li{
     padding: 10px 50px;
 }
