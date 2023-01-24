@@ -104,6 +104,15 @@ h2{
     font-size: 50px;
     padding: 15px 0;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+}
 /* Header */
 header {
     background-image: url(../img/jumbo.png);
@@ -155,7 +164,6 @@ nav ul {
 
 
 header .headersuperiore a {
-    text-decoration: none;
     color: white;
 }
 
@@ -235,6 +243,10 @@ footer {
     background-color: #23272a;
     padding-top: 10px;
 }
+footer .small2 ul li {
+    display: flex;
+    justify-content: center;
+}
 
 .logo-footer,
 .bottone {
@@ -249,35 +261,51 @@ footer {
 
 
 footer .footer-top .coll-small2 {
+    margin-top: 100px;
     width:  30%;
-    background-color: #f08080;
+}
+h4{
+    font-size: 30px;
+    color: #7289da;
+}
+.footer-top p,.flagita{
+    display: inline-block;
+    color: white;
+}
+footer .coll-small2 li{
+    color: white;
+}
+footer .coll-small2 ul{
+    display: flex;
+    gap:15px;
+}
+.flagita{
+    width: 25px;
 }
 
 .coll-big2 {
+    display: flex;
     width:  100%;
+    margin-top: 100px;
     justify-content: space-between;
 } 
-
-footer .footer-top .coll-big2>.box {
-    background-color: #7fffd4;
-}
 
 footer hr {
     margin: 30px auto;
 }
-
-.logo-footer,
-.bottone {
-    background-color: #f08080;
+.box{
+    width: 25%;
 }
-
 footer .footer-bottom .container {
     justify-content: space-between;
     display: flex;
-    background-color: #7fffd4;
     align-items: flex-end;
 } 
 
-footer .footer-bottom .container.big {
-    padding: 20px 0;
+.first>a{
+    color: #7289da;
+} 
+
+footer .box li{
+    padding: 10px 50px;
 }
