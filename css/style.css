@@ -96,7 +96,14 @@ button {
     color: white;
     background-color: #23272a;
 }
-
+p {
+    font-size: 20px;
+    line-height: 35px;
+}
+h2{
+    font-size: 50px;
+    padding: 15px 0;
+}
 /* Header */
 header {
     background-image: url(../img/jumbo.png);
@@ -159,12 +166,7 @@ header .headersuperiore a {
 
 .headerbottom h1 {
     font-size: 50px;
-    padding: 15px;
-}
-
-.headerbottom p {
-    font-size: 20px;
-    line-height: 35px;
+    padding: 15px 0;
 }
 
 .headerbottom {
@@ -191,8 +193,6 @@ header .headersuperiore a {
 
 section {
     padding: 40px;
-    display: flex;
-    justify-content: center;
 }
 
 main section:nth-child(even) {
@@ -201,23 +201,34 @@ main section:nth-child(even) {
 
 .col-1 {
     width: 60%;
-    background-color: #1e90ff;
 }
 
 .col-2 {
     width: 40%;
-    background-color: #ffc0cb;
 }
 
-.container.green {
-    background-color: green;
-}
 
 section .row {
     display: flex;
     justify-content: space-between;
 }
+.quarta-section{
+    text-align: center;
+}
 
+section .col-green img{
+    width: 1300px;
+}
+h3{
+    font-size: 30px;
+}
+
+.blue-button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #7289da;
+    color: white;
+}
 /* Footer */
 
 footer {
